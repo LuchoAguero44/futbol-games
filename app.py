@@ -27,7 +27,7 @@ DATA = cargar_datos()
 # ---------------------------------------------------------------------------
 st.title("⚽ Futbol Games")
 
-tab1, tab2, tab3 = st.tabs(["El impostor", "🧠 Preguntados", "👟 Adivina el Jugador"])
+tab1, tab2, tab3 = st.tabs(["🕵️El impostor", "🧠 Preguntados", "👟 Adivina el Jugador"])
 
 # ===========================================================================
 # 1. JUEGO: MR. WHITE (IMPOSTOR)
@@ -43,48 +43,66 @@ with tab1:
         num_impostores = st.number_input("Número de Impostores", min_value=1, max_value=3, value=1, step=1)
         
     if num_impostores >= num_jugadores - 1:
-        st.error("¡Debe haber más impostores!")
+        st.error("¡Debe haber más inocentes que impostores!")
         num_impostores = 1
+
+    # Formulario dinámico para los nombres de los participantes
+    st.markdown("##### 👥 Nombres de los participantes:")
+    nombres_ingresados = []
+    
+    # Organizar inputs en 2 columnas para no saturar la pantalla
+    cols_nombres = st.columns(2)
+    for i in range(num_jugadores):
+        col = cols_nombres[i % 2]
+        nombre = col.text_input(
+            f"Jugador {i + 1}", 
+            value=f"Jugador {i + 1}", 
+            key=f"input_nombre_{i}"
+        ).strip()
+        nombres_ingresados.append(nombre if nombre else f"Jugador {i + 1}")
 
     # Inicializar estado de Mr. White
     if "mw_roles" not in st.session_state:
         st.session_state.mw_roles = None
         st.session_state.mw_palabra = ""
         st.session_state.mw_revelados = {}
+        st.session_state.mw_nombres = []
 
     def iniciar_mr_white():
-        palabra = random.choice(DATA["palabras_mr_white"]) if DATA["palabras_mr_white"] else "Fútbol"
+        palabra = random.choice(DATA["palabras_mr_white"]) if DATA.get("palabras_mr_white") else "Fútbol"
         roles = ["Tripulante"] * (num_jugadores - num_impostores) + ["Mr. White"] * num_impostores
         random.shuffle(roles)
         st.session_state.mw_roles = roles
         st.session_state.mw_palabra = palabra
+        st.session_state.mw_nombres = nombres_ingresados
         st.session_state.mw_revelados = {i: False for i in range(num_jugadores)}
 
     if st.button("🎲 Generar / Reiniciar Juego", key="btn_mw_init"):
         iniciar_mr_white()
 
-    # Mostrar la asignación de roles de forma segura
-    if st.session_state.mw_roles:
+    # Mostrar la asignación de roles con nombres personalizados
+    if st.session_state.mw_roles and len(st.session_state.mw_roles) == num_jugadores:
         st.subheader("🔑 Revela tu rol en secreto:")
         
         for idx, rol in enumerate(st.session_state.mw_roles):
-            with st.expander(f"👤 Jugador {idx + 1}"):
+            nombre_actual = st.session_state.mw_nombres[idx] if idx < len(st.session_state.mw_nombres) else f"Jugador {idx + 1}"
+            
+            with st.expander(f"👤 {nombre_actual}"):
                 if not st.session_state.mw_revelados[idx]:
-                    if st.button("👀 Mostrar mi rol", key=f"rev_{idx}"):
+                    if st.button(f"👀 Mostrar rol de {nombre_actual}", key=f"rev_{idx}"):
                         st.session_state.mw_revelados[idx] = True
                         st.rerun()
                 else:
                     if rol == "Mr. White":
-                        st.markdown("### 🟥 Eres **EL IMPOSTOR**")
-                        st.write("No sabes el jugador, descubrelo.")
+                        st.markdown(f"### 🟥 **{nombre_actual}**, eres **EL IMPOSTOR**")
+                        st.write("No sabes cuál es el jugador/palabra secreta. ¡Disimula!")
                     else:
-                        st.markdown("### 🟩 Eres **INOCENTE**")
+                        st.markdown(f"### 🟩 **{nombre_actual}**, eres **INOCENTE**")
                         st.write(f"La palabra secreta es: **{st.session_state.mw_palabra}**")
                     
                     if st.button("🔒 Ocultar de nuevo", key=f"ocultar_{idx}"):
                         st.session_state.mw_revelados[idx] = False
                         st.rerun()
-
 # ===========================================================================
 # 2. JUEGO: PREGUNTADOS
 # ===========================================================================
