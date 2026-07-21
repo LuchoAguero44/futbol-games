@@ -664,32 +664,32 @@
   "adivina_jugador": [
     {
       "id": 1,
-      "historial": "Malmo FF 🇸🇪 ➔ Ajax 🇳🇱 ➔ Juventus 🇮🇹 ➔ Inter de Milán 🇮🇹 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ LA Galaxy 🇺🇸 ➔ AC Milan 🇮🇹",
+      "historial": "Malmo FF 🇸🇪 ➔ Ajax 🇳🇱 ➔ Juventus 🇮🇹 ➔ Inter de Milán 🇮🇹 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🇬🇧 ➔ LA Galaxy 🇺🇸 ➔ AC Milan 🇮🇹",
       "nombre": "Zlatan Ibrahimovic"
     },
     {
       "id": 2,
-      "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Napoli 🇮🇹 ➔ Juventus 🇮🇹 ➔ AC Milan 🇮🇹 ➔ Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Inter Miami 🇺🇸",
+      "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Napoli 🇮🇹 ➔ Juventus 🇮🇹 ➔ AC Milan 🇮🇹 ➔ Chelsea 🇬🇧 ➔ Inter Miami 🇺🇸",
       "nombre": "Gonzalo Higuain"
     },
     {
       "id": 3,
-      "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Al-Nassr 🇸🇦",
+      "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🇬🇧 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Manchester United 🇬🇧 ➔ Al-Nassr 🇸🇦",
       "nombre": "Cristiano Ronaldo"
     },
     {
       "id": 4,
-      "historial": "Monaco 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
+      "historial": "Monaco 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🇬🇧 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
       "nombre": "Thierry Henry"
     },
     {
       "id": 5,
-      "historial": "Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾 ➔ Grêmio 🇧🇷 ➔ Inter Miami 🇺🇸",
+      "historial": "Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🇬🇧 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾 ➔ Grêmio 🇧🇷 ➔ Inter Miami 🇺🇸",
       "nombre": "Luis Suarez"
     },
     {
       "id": 6,
-      "historial": "Boca Juniors 🇦🇷 ➔ Corinthians 🇧🇷 ➔ West Ham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Juventus 🇮🇹 ➔ Boca Juniors 🇦🇷 ➔ Shanghai Shenhua 🇨🇳 ➔ Boca Juniors 🇦🇷",
+      "historial": "Boca Juniors 🇦🇷 ➔ Corinthians 🇧🇷 ➔ West Ham 🇬🇧 ➔ Manchester United 🇬🇧 ➔ Manchester City 🇬🇧 ➔ Juventus 🇮🇹 ➔ Boca Juniors 🇦🇷 ➔ Shanghai Shenhua 🇨🇳 ➔ Boca Juniors 🇦🇷",
       "nombre": "Carlos Tevez"
     },
     {
@@ -699,7 +699,7 @@
     },
     {
       "id": 8,
-      "historial": "Real Sociedad 🇪🇸 ➔ Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Real Madrid 🇪🇸 ➔ Bayern Múnich 🇩🇪",
+      "historial": "Real Sociedad 🇪🇸 ➔ Liverpool 🇬🇧 ➔ Real Madrid 🇪🇸 ➔ Bayern Múnich 🇩🇪",
       "nombre": "Xabi Alonso"
     },
   {
@@ -714,12 +714,12 @@
   },
   {
     "id": 11,
-    "historial": "Instituto 🇦🇷 ➔ Racing Club 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Manchester City 🏴",
+    "historial": "Instituto 🇦🇷 ➔ Racing Club 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Manchester City 🇬🇧",
     "nombre": "Sergio Agüero"
   },
   {
     "id": 12,
-    "historial": "Rosario Central 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Benfica 🇵🇹",
+    "historial": "Rosario Central 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🇬🇧 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Benfica 🇵🇹",
     "nombre": "Ángel Di María"
   },
   {
@@ -729,17 +729,17 @@
   },
   {
     "id": 14,
-    "historial": "Danubio 🇺🇾 ➔ Palermo 🇮🇹 ➔ Napoli 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🏴 ➔ Valencia 🇪🇸 ➔ Boca Juniors 🇦🇷",
+    "historial": "Danubio 🇺🇾 ➔ Palermo 🇮🇹 ➔ Napoli 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🇬🇧 ➔ Valencia 🇪🇸 ➔ Boca Juniors 🇦🇷",
     "nombre": "Edinson Cavani"
   },
   {
     "id": 15,
-    "historial": "Nacional 🇺🇾 ➔ FC Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🏴 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾",
+    "historial": "Nacional 🇺🇾 ➔ FC Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🇬🇧 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾",
     "nombre": "Luis Suárez"
   },
   {
     "id": 16,
-    "historial": "Fluminense 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fluminense 🇧🇷",
+    "historial": "Fluminense 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Fluminense 🇧🇷",
     "nombre": "Marcelo"
   },
   {
@@ -759,17 +759,17 @@
   },
   {
     "id": 20,
-    "historial": "Benfica 🇵🇹 ➔ Atlético de Madrid 🇪🇸 ➔ Chelsea 🏴 ➔ Atlético de Madrid 🇪🇸",
+    "historial": "Benfica 🇵🇹 ➔ Atlético de Madrid 🇪🇸 ➔ Chelsea 🇬🇧 ➔ Atlético de Madrid 🇪🇸",
     "nombre": "João Félix"
   },
   {
     "id": 21,
-    "historial": "Peñarol 🇺🇾 ➔ PSG 🇫🇷 ➔ Manchester United 🏴",
+    "historial": "Peñarol 🇺🇾 ➔ PSG 🇫🇷 ➔ Manchester United 🇬🇧",
     "nombre": "Manuel Ugarte"
   },
   {
     "id": 22,
-    "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🏴",
+    "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🇬🇧",
     "nombre": "Bruno Fernandes"
   },
   {
@@ -784,12 +784,12 @@
   },
   {
     "id": 25,
-    "historial": "River Plate 🇦🇷 ➔ Bayer Leverkusen 🇩🇪 ➔ West Ham 🏴 ➔ River Plate 🇦🇷",
+    "historial": "River Plate 🇦🇷 ➔ Bayer Leverkusen 🇩🇪 ➔ West Ham 🇬🇧 ➔ River Plate 🇦🇷",
     "nombre": "Javier Mascherano"
   },
   {
     "id": 26,
-    "historial": "Estudiantes 🇦🇷 ➔ Manchester United 🏴 ➔ Juventus 🇮🇹 ➔ Estudiantes 🇦🇷",
+    "historial": "Estudiantes 🇦🇷 ➔ Manchester United 🇬🇧 ➔ Juventus 🇮🇹 ➔ Estudiantes 🇦🇷",
     "nombre": "Juan Sebastián Verón"
   },
   {
@@ -799,7 +799,7 @@
   },
   {
     "id": 28,
-    "historial": "Sporting Cristal 🇵🇪 ➔ PSV 🇳🇱 ➔ Chelsea 🏴 ➔ Fiorentina 🇮🇹",
+    "historial": "Sporting Cristal 🇵🇪 ➔ PSV 🇳🇱 ➔ Chelsea 🇬🇧 ➔ Fiorentina 🇮🇹",
     "nombre": "Renato Tapia"
   },
   {
@@ -829,17 +829,17 @@
   },
   {
     "id": 34,
-    "historial": "Genk 🇧🇪 ➔ Chelsea 🏴 ➔ Werder Bremen 🇩🇪 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🏴",
+    "historial": "Genk 🇧🇪 ➔ Chelsea 🇬🇧 ➔ Werder Bremen 🇩🇪 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🇬🇧",
     "nombre": "Kevin De Bruyne"
   },
   {
     "id": 35,
-    "historial": "Molde 🇳🇴 ➔ Red Bull Salzburg 🇦🇹 ➔ Borussia Dortmund 🇩🇪 ➔ Manchester City 🏴",
+    "historial": "Molde 🇳🇴 ➔ Red Bull Salzburg 🇦🇹 ➔ Borussia Dortmund 🇩🇪 ➔ Manchester City 🇬🇧",
     "nombre": "Erling Haaland"
   },
   {
     "id": 36,
-    "historial": "Flamengo 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fluminense 🇧🇷",
+    "historial": "Flamengo 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Fluminense 🇧🇷",
     "nombre": "Robinho"
   },
   {
@@ -854,12 +854,12 @@
   },
   {
     "id": 39,
-    "historial": "Flamengo 🇧🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fenerbahçe 🇹🇷",
+    "historial": "Flamengo 🇧🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Fenerbahçe 🇹🇷",
     "nombre": "Roberto Carlos"
   },
   {
     "id": 40,
-    "historial": "Atlético Nacional 🇨🇴 ➔ River Plate 🇦🇷 ➔ Villarreal 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Juventus 🇮🇹 ➔ Manchester United 🏴",
+    "historial": "Atlético Nacional 🇨🇴 ➔ River Plate 🇦🇷 ➔ Villarreal 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Juventus 🇮🇹 ➔ Manchester United 🇬🇧",
     "nombre": "Radamel Falcao"
   },
   {
@@ -869,7 +869,7 @@
   },
   {
     "id": 42,
-    "historial": "River Plate 🇦🇷 ➔ Monaco 🇫🇷 ➔ PSG 🇫🇷 ➔ Manchester United 🏴 ➔ Chelsea 🏴 ➔ Manchester City 🏴",
+    "historial": "River Plate 🇦🇷 ➔ Monaco 🇫🇷 ➔ PSG 🇫🇷 ➔ Manchester United 🇬🇧 ➔ Chelsea 🇬🇧➔ Manchester City 🇬🇧",
     "nombre": "Ángel Di María"
   },
   {
@@ -884,7 +884,7 @@
   },
   {
     "id": 45,
-    "historial": "Metz 🇫🇷 ➔ Juventus 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Chelsea 🏴",
+    "historial": "Metz 🇫🇷 ➔ Juventus 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Chelsea 🇬🇧",
     "nombre": "Zinedine Zidane"
   },
   {
@@ -904,7 +904,7 @@
   },
   {
     "id": 49,
-    "historial": "Ajax 🇳🇱 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Tottenham 🏴 ➔ Fulham 🏴",
+    "historial": "Ajax 🇳🇱 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Tottenham 🇬🇧 ➔ Fulham 🇬🇧",
     "nombre": "Rafael van der Vaart"
   },
   {
@@ -914,22 +914,22 @@
   },
   {
     "id": 51,
-    "historial": "Bordeaux 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🏴 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
+    "historial": "Bordeaux 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🇬🇧 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
     "nombre": "Thierry Henry"
   },
   {
     "id": 52,
-    "historial": "Rosario Central 🇦🇷 ➔ Valencia 🇪🇸 ➔ Barcelona 🇪🇸 ➔ Villarreal 🇪🇸 ➔ Manchester City 🏴",
+    "historial": "Rosario Central 🇦🇷 ➔ Valencia 🇪🇸 ➔ Barcelona 🇪🇸 ➔ Villarreal 🇪🇸 ➔ Manchester City 🇬🇧",
     "nombre": "Pablo Zabaleta"
   },
   {
     "id": 53,
-    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Monaco 🇲🇨 ➔ Espanyol 🇪🇸",
+    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Monaco 🇲🇨 ➔ Espanyol 🇪🇸",
     "nombre": "Martín Demichelis"
   },
   {
     "id": 54,
-    "historial": "Benfica 🇵🇹 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Manchester United 🏴",
+    "historial": "Benfica 🇵🇹 ➔ Chelsea 🇬🇧 ➔ Real Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Manchester United 🇬🇧",
     "nombre": "Ricardo Carvalho"
   },
   {
@@ -939,12 +939,12 @@
   },
   {
     "id": 56,
-    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Benfica 🇵🇹 ➔ Monaco 🇲🇨 ➔ Manchester City 🏴",
+    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Benfica 🇵🇹 ➔ Monaco 🇲🇨 ➔ Manchester City 🇬🇧",
     "nombre": "Javier Saviola"
   },
   {
     "id": 57,
-    "historial": "Ajax 🇳🇱 ➔ Arsenal 🏴 ➔ Manchester United 🏴 ➔ Fenerbahçe 🇹🇷",
+    "historial": "Ajax 🇳🇱 ➔ Arsenal 🇬🇧 ➔ Manchester United 🇬🇧 ➔ Fenerbahçe 🇹🇷",
     "nombre": "Robin van Persie"
   },
   {
@@ -954,32 +954,32 @@
   },
   {
     "id": 59,
-    "historial": "Anderlecht 🇧🇪 ➔ Chelsea 🏴 ➔ Manchester City 🏴 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🏴",
+    "historial": "Anderlecht 🇧🇪 ➔ Chelsea 🇬🇧 ➔ Manchester City 🇬🇧 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🇬🇧",
     "nombre": "Kevin De Bruyne"
   },
   {
     "id": 60,
-    "historial": "Schalke 04 🇩🇪 ➔ Real Madrid 🇪🇸 ➔ Arsenal 🏴 ➔ Fenerbahçe 🇹🇷",
+    "historial": "Schalke 04 🇩🇪 ➔ Werder Bremen ➔ Real Madrid 🇪🇸 ➔ Arsenal 🇬🇧 ➔ Fenerbahçe 🇹🇷 ➔ İstanbul Başakşehir F. K.",
     "nombre": "Mesut Özil"
   },
   {
     "id": 61,
-    "historial": "Bayern Múnich 🇩🇪 ➔ Manchester United 🏴 ➔ Chicago Fire 🇺🇸",
+    "historial": "Bayern Múnich 🇩🇪 ➔ Manchester United 🇬🇧 ➔ Chicago Fire 🇺🇸",
     "nombre": "Bastian Schweinsteiger"
   },
   {
     "id": 62,
-    "historial": "Dinamo Zagreb 🇭🇷 ➔ Tottenham 🏴 ➔ Real Madrid 🇪🇸 ➔ Inter Miami 🇺🇸",
+    "historial": "Dinamo Zagreb 🇭🇷 ➔ Tottenham 🇬🇧 ➔ Real Madrid 🇪🇸 ➔ Inter Milan",
     "nombre": "Luka Modrić"
   },
   {
     "id": 63,
-    "historial": "Dinamo Zagreb 🇭🇷 ➔ Sevilla 🇪🇸 ➔ Real Madrid 🇪🇸 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸",
+    "historial": "Dinamo Zagreb 🇭🇷 ➔ Sevilla 🇪🇸 ➔ Real Madrid 🇪🇸 ➔ Chelsea 🇬🇧 ➔ Real Madrid 🇪🇸",
     "nombre": "Mateo Kovačić"
   },
   {
     "id": 64,
-    "historial": "River Plate 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴",
+    "historial": "Newell's Old Boys 🇦🇷 ➔ Racing de Santander 🇪🇸 ➔ Real Madrid 🇪🇸 ➔ Benfica 🇵🇹 ➔ Zenit de San Petersburgo 🇷🇺 ➔ Valencia 🇪🇸",
     "nombre": "Ezequiel Garay"
   },
   {
@@ -994,12 +994,12 @@
   },
   {
     "id": 67,
-    "historial": "Racing Club 🇦🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Roma 🇮🇹",
+    "historial": "Racing Club 🇦🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Roma 🇮🇹",
     "nombre": "Walter Samuel"
   },
   {
     "id": 68,
-    "historial": "Porto 🇵🇹 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴 ➔ Tottenham 🏴",
+   "historial": "Rio Ave 🇵🇹 ➔ Belenenses 🇵🇹 ➔ Sesimbra 🇵🇹 ➔ Lisboa  🇵🇹 ➔ Comércio e Indústria 🇵🇹 ",
     "nombre": "José Mourinho"
   }
   ],
