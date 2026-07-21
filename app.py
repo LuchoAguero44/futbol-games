@@ -26,26 +26,24 @@ DATA = cargar_datos()
 # INTERFAZ PRINCIPAL (TABS)
 # ---------------------------------------------------------------------------
 st.title("⚽ Futbol Games")
-st.write("¡Pon a prueba tus conocimientos futbolísticos y diviértete con amigos!")
 
-tab1, tab2, tab3 = st.tabs(["🕵️ Mr. White", "🧠 Preguntados", "👟 Adivina el Jugador"])
+tab1, tab2, tab3 = st.tabs(["El impostor", "🧠 Preguntados", "👟 Adivina el Jugador"])
 
 # ===========================================================================
 # 1. JUEGO: MR. WHITE (IMPOSTOR)
 # ===========================================================================
 with tab1:
-    st.header("Mr. White (El Impostor)")
-    st.caption("Juego local para reuniones. Pasa el teléfono para descubrir los roles en secreto.")
+    st.header("El Impostor")
     
     # Parámetros del juego
     col1, col2 = st.columns(2)
     with col1:
         num_jugadores = st.number_input("Número de Jugadores", min_value=4, max_value=15, value=6, step=1)
     with col2:
-        num_impostores = st.number_input("Número de Impostores (Mr. White)", min_value=1, max_value=3, value=1, step=1)
+        num_impostores = st.number_input("Número de Impostores", min_value=1, max_value=3, value=1, step=1)
         
     if num_impostores >= num_jugadores - 1:
-        st.error("¡Debe haber más tripulantes que impostores!")
+        st.error("¡Debe haber más impostores!")
         num_impostores = 1
 
     # Inicializar estado de Mr. White
@@ -62,7 +60,7 @@ with tab1:
         st.session_state.mw_palabra = palabra
         st.session_state.mw_revelados = {i: False for i in range(num_jugadores)}
 
-    if st.button("🎲 Generar / Reiniciar Partida", key="btn_mw_init"):
+    if st.button("🎲 Generar / Reiniciar Juego", key="btn_mw_init"):
         iniciar_mr_white()
 
     # Mostrar la asignación de roles de forma segura
@@ -77,10 +75,10 @@ with tab1:
                         st.rerun()
                 else:
                     if rol == "Mr. White":
-                        st.markdown("### 🟥 Eres **Mr. White**")
-                        st.write("No sabes la palabra. ¡Disimula y trata de descubrirla!")
+                        st.markdown("### 🟥 Eres **EL IMPOSTOR**")
+                        st.write("No sabes el jugador, descubrelo.")
                     else:
-                        st.markdown("### 🟩 Eres **Tripulante**")
+                        st.markdown("### 🟩 Eres **INOCENTE**")
                         st.write(f"La palabra secreta es: **{st.session_state.mw_palabra}**")
                     
                     if st.button("🔒 Ocultar de nuevo", key=f"ocultar_{idx}"):
