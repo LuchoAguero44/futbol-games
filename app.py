@@ -10,19 +10,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Inyectar CSS personalizado para diseño limpio y optimización móvil
-st.markdown(
-    """
-    <style>
-        .main .block-container { padding-top: 2rem; max-width: 600px; }
-        .stButton>button { width: 100%; border-radius: 8px; margin-top: 5px; }
-        .game-box { padding: 20px; border-radius: 12px; background-color: #f0f2f6; margin-bottom: 20px; }
-        h1, h2, h3 { text-align: center; }
-    </style>
-    """,
-    unsafe_with_html=True,
-)
-
 # Cargar base de datos JSON
 @st.cache_data
 def cargar_datos():
