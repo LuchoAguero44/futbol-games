@@ -11,20 +11,23 @@ st.set_page_config(
 )
 
 # Inyectar CSS personalizado para diseño limpio y optimización móvil
-st.markdown("""
+st.markdown(
+    """
     <style>
         .main .block-container { padding-top: 2rem; max-width: 600px; }
         .stButton>button { width: 100%; border-radius: 8px; margin-top: 5px; }
         .game-box { padding: 20px; border-radius: 12px; background-color: #f0f2f6; margin-bottom: 20px; }
         h1, h2, h3 { text-align: center; }
     </style>
-""", unsafe_with_html=True)
+    """,
+    unsafe_with_html=True,
+)
 
 # Cargar base de datos JSON
 @st.cache_data
 def cargar_datos():
     try:
-        with open('data.json', 'r', encoding='utf-8') as f:
+        with open("data.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         st.error("Error: No se encontró el archivo data.json.")
@@ -59,7 +62,7 @@ with tab1:
         num_impostores = 1
 
     # Inicializar estado de Mr. White
-    if 'mw_roles' not in st.session_state:
+    if "mw_roles" not in st.session_state:
         st.session_state.mw_roles = None
         st.session_state.mw_palabra = ""
         st.session_state.mw_revelados = {}
@@ -104,7 +107,7 @@ with tab2:
     st.header("🧠 Trivia Futbolera")
     
     # Inicializar variables de estado de Preguntados
-    if 'quiz_score' not in st.session_state:
+    if "quiz_score" not in st.session_state:
         st.session_state.quiz_score = 0
         st.session_state.quiz_index = 0
         st.session_state.quiz_respondido = False
@@ -170,7 +173,7 @@ with tab3:
     st.header("👟 ¿Quién es el futbolista?")
     st.caption("Adivina la identidad del jugador analizando su trayectoria cronológica de clubes.")
 
-    if 'guess_index' not in st.session_state:
+    if "guess_index" not in st.session_state:
         st.session_state.guess_index = 0
         st.session_state.guess_revelado = False
         st.session_state.guess_feedback = ""
@@ -198,7 +201,6 @@ with tab3:
         col_g1, col_g2 = st.columns(2)
         with col_g1:
             if st.button("🎯 Adivinar", key="btn_adivinar"):
-                # Normalización básica de strings para tolerancia
                 if intento.lower() in jugador_actual["nombre"].lower():
                     st.session_state.guess_feedback = "correcto"
                     st.session_state.guess_revelado = True
