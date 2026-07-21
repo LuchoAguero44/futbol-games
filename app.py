@@ -34,7 +34,9 @@ DATA = cargar_datos()
 @st.cache_data
 def obtener_imagen_procesada(url_imagen, nivel_desenfoque):
     try:
-        headers = {'User-Agent': 'FutbolGamesApp/1.0'}
+        headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+}
         response = requests.get(url_imagen, headers=headers, timeout=5)
         img = Image.open(BytesIO(response.content)).convert("RGB")
         
