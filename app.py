@@ -34,16 +34,24 @@ DATA = cargar_datos()
 @st.cache_data
 def obtener_imagen_procesada(url_imagen, nivel_desenfoque):
     try:
+        # User-Agent completo para evitar bloqueo 403 Forbidden
         headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
-}
-        response = requests.get(url_imagen, headers=headers, timeout=5)
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+        }
+        response = requests.get(url_imagen, headers=headers, timeout=8)
+        
+        # Validar estado de la respuesta HTTP
+        if response.status_code != 200:
+            print(f"Error HTTP {response.status_code} al descargar: {url_imagen}")
+            return None
+            
         img = Image.open(BytesIO(response.content)).convert("RGB")
         
         if nivel_desenfoque > 0:
             img = img.filter(ImageFilter.GaussianBlur(radius=nivel_desenfoque))
         return img
-    except Exception:
+    except Exception as e:
+        print(f"Excepción al procesar imagen ({url_imagen}): {e}")
         return None
 
 # ---------------------------------------------------------------------------
