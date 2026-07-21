@@ -684,7 +684,7 @@
     },
     {
       "id": 5,
-      "historial": "Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🇬🇧 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾 ➔ Grêmio 🇧🇷 ➔ Inter Miami 🇺🇸",
+      "historial": "Nacional 🇺🇾 ➔ Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🇬🇧 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾 ➔ Grêmio 🇧🇷 ➔ Inter Miami 🇺🇸",
       "nombre": "Luis Suarez"
     },
     {
@@ -714,17 +714,17 @@
   },
   {
     "id": 11,
-    "historial": "Instituto 🇦🇷 ➔ Racing Club 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Manchester City 🇬🇧",
+    "historial": "Independiente 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Manchester City 🇬🇧",
     "nombre": "Sergio Agüero"
   },
   {
     "id": 12,
-    "historial": "Rosario Central 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🇬🇧 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Benfica 🇵🇹",
+    "historial": "Rosario Central 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🇬🇧 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Benfica 🇵🇹 ➔ Rosario Central 🇦🇷",
     "nombre": "Ángel Di María"
   },
   {
     "id": 13,
-    "historial": "Argentinos Juniors 🇦🇷 ➔ Boca Juniors 🇦🇷 ➔ Villarreal 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Roma 🇮🇹",
+    "historial": "Argentinos Juniors 🇦🇷 ➔ Boca Juniors 🇦🇷 ➔ Juventus 🇮🇹 ➔ Tottenham Hotspur",
     "nombre": "Rodrigo Bentancur"
   },
   {
@@ -739,8 +739,8 @@
   },
   {
     "id": 16,
-    "historial": "Fluminense 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🇬🇧 ➔ Fluminense 🇧🇷",
-    "nombre": "Marcelo"
+    "historial": "Fluminense 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Olympiacos F.C➔ Fluminense 🇧🇷",
+    "nombre": "Marcelo Vieira"
   },
   {
     "id": 17,
@@ -749,7 +749,7 @@
   },
   {
     "id": 18,
-    "historial": "Cruzeiro 🇧🇷 ➔ PSV 🇳🇱 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹",
+    "historial": "Cruzeiro 🇧🇷 ➔ PSV 🇳🇱 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹 ➔ Corinthians 🇧🇷",
     "nombre": "Ronaldo Nazário"
   },
   {
@@ -759,7 +759,7 @@
   },
   {
     "id": 20,
-    "historial": "Benfica 🇵🇹 ➔ Atlético de Madrid 🇪🇸 ➔ Chelsea 🇬🇧 ➔ Atlético de Madrid 🇪🇸",
+    "historial": "Benfica 🇵🇹 ➔ Atlético de Madrid 🇪🇸 ➔ Chelsea 🇬🇧 ➔ Al-Nassr F. C.",
     "nombre": "João Félix"
   },
   {
