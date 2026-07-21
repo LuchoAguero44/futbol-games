@@ -1,0 +1,1245 @@
+{
+  "preguntados": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué selección nacional ganó la primera Copa del Mundo en 1930?",
+      "opciones": ["Argentina", "Uruguay", "Brasil", "Italia"],
+      "correcta": "Uruguay"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Quién es el máximo goleador histórico de la UEFA Champions League?",
+      "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Robert Lewandowski", "Raúl González"],
+      "correcta": "Cristiano Ronaldo"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué club inglés es el único en ganar la Premier League de forma invicta (Los Invencibles)?",
+      "opciones": ["Manchester United", "Chelsea", "Manchester City", "Arsenal"],
+      "correcta": "Arsenal"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿En qué año se fundó la FIFA?",
+      "opciones": ["1904", "1912", "1920", "1898"],
+      "correcta": "1904"
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué jugador tiene el récord de más expulsiones en la historia de la Liga de Campeones?",
+      "opciones": ["Sergio Ramos", "Zlatan Ibrahimović", "Edgar Davids", "Patrick Vieira"],
+      "correcta": "Zlatan Ibrahimović"
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Quién fue el director técnico de la Selección de Francia en el Mundial de 1998?",
+      "opciones": ["Aimé Jacquet", "Roger Lemerre", "Raymond Domenech", "Michel Platini"],
+      "correcta": "Aimé Jacquet"
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué país africano fue el primero en clasificar a unos cuartos de final en un Mundial?",
+      "opciones": ["Camerún", "Senegal", "Ghana", "Marruecos"],
+      "correcta": "Camerún"
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Qué futbolista ganó el Balón de Oro en el año 2004?",
+      "opciones": ["Ronaldinho", "Andriy Shevchenko", "Thierry Henry", "Deco"],
+      "correcta": "Andriy Shevchenko"
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cuál es el club con más títulos de la Copa Libertadores de América?",
+      "opciones": ["Boca Juniors", "River Plate", "Independiente", "Peñarol"],
+      "correcta": "Independiente"
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Quién anotó el gol de la victoria para España en la final del Mundial 2010?",
+      "opciones": ["Andrés Iniesta", "Xavi Hernández", "David Villa", "Fernando Torres"],
+      "correcta": "Andrés Iniesta"
+    },
+    {
+    "id": 11,
+    "pregunta": "¿Qué selección eliminó a Brasil en la final del Mundial de 1950 en el histórico 'Maracanazo'?",
+    "opciones": ["Uruguay", "Argentina", "Hungría", "Italia"],
+    "correcta": "Uruguay"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué club ganó la primera edición de la Copa de Europa en 1956?",
+    "opciones": ["Real Madrid", "Benfica", "AC Milan", "Stade de Reims"],
+    "correcta": "Real Madrid"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Quién es el máximo goleador histórico de la Copa Mundial de la FIFA?",
+    "opciones": ["Miroslav Klose", "Ronaldo Nazário", "Gerd Müller", "Pelé"],
+    "correcta": "Miroslav Klose"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué país organizó el primer Mundial de fútbol en 1930?",
+    "opciones": ["Argentina", "Italia", "Uruguay", "Brasil"],
+    "correcta": "Uruguay"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué jugador ganó el Balón de Oro de 1995, siendo el primer africano en conseguirlo?",
+    "opciones": ["George Weah", "Samuel Eto'o", "Didier Drogba", "Abedi Pelé"],
+    "correcta": "George Weah"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué selección ganó la Eurocopa de 2004?",
+    "opciones": ["Portugal", "Grecia", "República Checa", "Francia"],
+    "correcta": "Grecia"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Quién fue el máximo goleador del Mundial de Sudáfrica 2010?",
+    "opciones": ["Thomas Müller", "David Villa", "Diego Forlán", "Wesley Sneijder"],
+    "correcta": "Thomas Müller"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué club italiano descendió administrativamente a la Serie B tras el escándalo del Calciopoli?",
+    "opciones": ["AC Milan", "Lazio", "Juventus", "Fiorentina"],
+    "correcta": "Juventus"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Quién marcó el gol con la 'Mano de Dios' en el Mundial de 1986?",
+    "opciones": ["Mario Kempes", "Diego Maradona", "Jorge Valdano", "Gabriel Batistuta"],
+    "correcta": "Diego Maradona"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué club ganó la Champions League 2011-12 derrotando al Bayern Múnich en su propio estadio?",
+    "opciones": ["Chelsea", "Manchester United", "Inter de Milán", "Real Madrid"],
+    "correcta": "Chelsea"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué selección fue campeona del primer Mundial celebrado en Asia?",
+    "opciones": ["Alemania", "Brasil", "Italia", "Francia"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Quién es el único portero que ha ganado el Balón de Oro?",
+    "opciones": ["Lev Yashin", "Gianluigi Buffon", "Manuel Neuer", "Iker Casillas"],
+    "correcta": "Lev Yashin"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué entrenador dirigió al Barcelona durante el histórico sextete de 2009?",
+    "opciones": ["Luis Enrique", "Frank Rijkaard", "Pep Guardiola", "Tito Vilanova"],
+    "correcta": "Pep Guardiola"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué selección perdió tres finales consecutivas de Copa América entre 2015 y 2016 y Mundial en 2014?",
+    "opciones": ["Chile", "Argentina", "Brasil", "Uruguay"],
+    "correcta": "Argentina"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué futbolista tiene el récord de más asistencias en la historia de la Champions League?",
+    "opciones": ["Cristiano Ronaldo", "Lionel Messi", "Ryan Giggs", "Ángel Di María"],
+    "correcta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué club ganó la primera edición de la Premier League en la temporada 1992-93?",
+    "opciones": ["Manchester United", "Blackburn Rovers", "Arsenal", "Liverpool"],
+    "correcta": "Manchester United"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué selección ganó la Copa América Centenario en 2016?",
+    "opciones": ["Chile", "Argentina", "Colombia", "Brasil"],
+    "correcta": "Chile"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Quién fue el máximo goleador de la Eurocopa 2016?",
+    "opciones": ["Antoine Griezmann", "Cristiano Ronaldo", "Olivier Giroud", "Álvaro Morata"],
+    "correcta": "Antoine Griezmann"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿En qué club debutó profesionalmente Luka Modrić?",
+    "opciones": ["Dinamo Zagreb", "Zrinjski Mostar", "NK Zagreb", "Inter Zaprešić"],
+    "correcta": "Dinamo Zagreb"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué selección ganó el Mundial Sub-20 de 2005?",
+    "opciones": ["Argentina", "Brasil", "Nigeria", "España"],
+    "correcta": "Argentina"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Quién marcó el gol del triunfo del Manchester United en la final de la Champions League de 1999?",
+    "opciones": ["Ole Gunnar Solskjær", "Teddy Sheringham", "David Beckham", "Dwight Yorke"],
+    "correcta": "Ole Gunnar Solskjær"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué país fue sede de la Copa Mundial de 1994?",
+    "opciones": ["Estados Unidos", "México", "Italia", "Francia"],
+    "correcta": "Estados Unidos"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué jugador ganó el Balón de Oro en 2007?",
+    "opciones": ["Kaká", "Cristiano Ronaldo", "Lionel Messi", "Andrea Pirlo"],
+    "correcta": "Kaká"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué club eliminó al Barcelona en las semifinales de la Champions League 2009-10?",
+    "opciones": ["Inter de Milán", "Chelsea", "Bayern Múnich", "Manchester United"],
+    "correcta": "Inter de Milán"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué selección ganó la Copa Confederaciones 2013?",
+    "opciones": ["Brasil", "España", "Italia", "Uruguay"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué club fue campeón de la Bundesliga invicto en la temporada 2023-24?",
+    "opciones": ["Bayer Leverkusen", "Bayern Múnich", "Borussia Dortmund", "RB Leipzig"],
+    "correcta": "Bayer Leverkusen"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué jugador anotó el gol de volea en la final de la Champions League 2002?",
+    "opciones": ["Zinedine Zidane", "Raúl González", "Luís Figo", "Roberto Carlos"],
+    "correcta": "Zinedine Zidane"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cuál fue el primer club europeo de Ronaldinho?",
+    "opciones": ["Paris Saint-Germain", "Barcelona", "AC Milan", "Porto"],
+    "correcta": "Paris Saint-Germain"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Quién fue el capitán de Italia en la final del Mundial 2006?",
+    "opciones": ["Fabio Cannavaro", "Francesco Totti", "Gianluigi Buffon", "Alessandro Del Piero"],
+    "correcta": "Fabio Cannavaro"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué selección ganó la Eurocopa de 1992 tras ser invitada a último momento?",
+    "opciones": ["Dinamarca", "Suecia", "Alemania", "Países Bajos"],
+    "correcta": "Dinamarca"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Cuál fue el primer club de Sergio Agüero en Europa?",
+    "opciones": ["Atlético de Madrid", "Manchester City", "Sevilla", "Valencia"],
+    "correcta": "Atlético de Madrid"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Qué selección derrotó a Alemania en las semifinales del Mundial 2018?",
+    "opciones": ["Ninguna, Alemania quedó eliminada en fase de grupos", "Francia", "Croacia", "Bélgica"],
+    "correcta": "Ninguna, Alemania quedó eliminada en fase de grupos"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Quién fue el máximo goleador de la Copa América 2021?",
+    "opciones": ["Lionel Messi", "Luis Díaz", "Lautaro Martínez", "Neymar"],
+    "correcta": "Lionel Messi"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿Qué club ganó la Europa League en 2022?",
+    "opciones": ["Eintracht Frankfurt", "Rangers", "Sevilla", "West Ham"],
+    "correcta": "Eintracht Frankfurt"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Qué entrenador conquistó tres Champions League consecutivas con el Real Madrid?",
+    "opciones": ["Zinedine Zidane", "Carlo Ancelotti", "José Mourinho", "Vicente del Bosque"],
+    "correcta": "Zinedine Zidane"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Qué país ganó la primera Eurocopa disputada en 1960?",
+    "opciones": ["Unión Soviética", "España", "Yugoslavia", "Checoslovaquia"],
+    "correcta": "Unión Soviética"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Qué jugador ganó el premio Golden Boy en 2018?",
+    "opciones": ["Matthijs de Ligt", "Kylian Mbappé", "João Félix", "Erling Haaland"],
+    "correcta": "Matthijs de Ligt"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Qué selección ganó el oro olímpico en fútbol masculino en Tokio 2020?",
+    "opciones": ["Brasil", "España", "México", "Argentina"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Qué club fue el rival del Liverpool en la final de la Champions League 2019?",
+    "opciones": ["Tottenham Hotspur", "Ajax", "Barcelona", "Manchester City"],
+    "correcta": "Tottenham Hotspur"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Quién fue el entrenador de la selección argentina campeona del Mundial 2022?",
+    "opciones": ["Lionel Scaloni", "Jorge Sampaoli", "Marcelo Bielsa", "Gerardo Martino"],
+    "correcta": "Lionel Scaloni"
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Qué selección ganó la primera Copa Confederaciones reconocida por la FIFA en 1997?",
+    "opciones": ["Brasil", "Francia", "Argentina", "México"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Quién anotó el gol del triunfo de Alemania en la final del Mundial 2014?",
+    "opciones": ["Mario Götze", "Thomas Müller", "Miroslav Klose", "André Schürrle"],
+    "correcta": "Mario Götze"
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Qué club ganó la primera UEFA Europa League disputada bajo ese nombre en 2010?",
+    "opciones": ["Atlético de Madrid", "Fulham", "Sevilla", "Porto"],
+    "correcta": "Atlético de Madrid"
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Quién fue el máximo goleador de la Champions League 2014-15?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Luis Suárez"],
+    "correcta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Qué selección eliminó a España en los octavos de final del Mundial 2018?",
+    "opciones": ["Rusia", "Croacia", "Portugal", "Uruguay"],
+    "correcta": "Rusia"
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Qué club fichó a Erling Haaland procedente del Red Bull Salzburg?",
+    "opciones": ["Borussia Dortmund", "Manchester City", "RB Leipzig", "Bayern Múnich"],
+    "correcta": "Borussia Dortmund"
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Quién ganó el Balón de Oro en 2018?",
+    "opciones": ["Luka Modrić", "Cristiano Ronaldo", "Lionel Messi", "Antoine Griezmann"],
+    "correcta": "Luka Modrić"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Qué selección conquistó la Copa América 2011?",
+    "opciones": ["Uruguay", "Paraguay", "Argentina", "Chile"],
+    "correcta": "Uruguay"
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Quién fue el entrenador del Leicester City campeón de la Premier League 2015-16?",
+    "opciones": ["Claudio Ranieri", "Brendan Rodgers", "Nigel Pearson", "Mauricio Pochettino"],
+    "correcta": "Claudio Ranieri"
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Qué jugador marcó el famoso gol de chilena para el Real Madrid ante la Juventus en 2018?",
+    "opciones": ["Cristiano Ronaldo", "Gareth Bale", "Karim Benzema", "Marcelo"],
+    "correcta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Qué selección ganó la Eurocopa 2008?",
+    "opciones": ["España", "Alemania", "Rusia", "Países Bajos"],
+    "correcta": "España"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué club ganó la Champions League 2006-07?",
+    "opciones": ["AC Milan", "Liverpool", "Barcelona", "Manchester United"],
+    "correcta": "AC Milan"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Quién fue el máximo goleador de la Copa Libertadores 2018?",
+    "opciones": ["Miguel Borja", "Lucas Pratto", "Gustavo Gómez", "Hernán Barcos"],
+    "correcta": "Miguel Borja"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Qué selección fue subcampeona del Mundial de 2002?",
+    "opciones": ["Alemania", "Brasil", "Turquía", "Corea del Sur"],
+    "correcta": "Alemania"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿En qué estadio se disputó la final del Mundial de 2014?",
+    "opciones": ["Maracaná", "Mineirão", "Arena Corinthians", "Mané Garrincha"],
+    "correcta": "Maracaná"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Qué club ganó la Copa Libertadores 2016?",
+    "opciones": ["Atlético Nacional", "Independiente del Valle", "River Plate", "Boca Juniors"],
+    "correcta": "Atlético Nacional"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Quién fue el capitán del Barcelona durante el sextete de 2009?",
+    "opciones": ["Carles Puyol", "Xavi Hernández", "Andrés Iniesta", "Víctor Valdés"],
+    "correcta": "Carles Puyol"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Qué país fue sede de la Eurocopa 2012 junto con Polonia?",
+    "opciones": ["Ucrania", "Hungría", "Austria", "Croacia"],
+    "correcta": "Ucrania"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Quién marcó el gol decisivo del Chelsea en la final de la Champions League 2021?",
+    "opciones": ["Kai Havertz", "Mason Mount", "Timo Werner", "N'Golo Kanté"],
+    "correcta": "Kai Havertz"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Qué club fue el rival del Barcelona en la final de la Champions League 2015?",
+    "opciones": ["Juventus", "Bayern Múnich", "Atlético de Madrid", "PSG"],
+    "correcta": "Juventus"
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Qué selección ganó el Mundial Femenino de 2019?",
+    "opciones": ["Estados Unidos", "Países Bajos", "Alemania", "Suecia"],
+    "correcta": "Estados Unidos"
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Quién fue el máximo goleador de la Premier League 2017-18?",
+    "opciones": ["Mohamed Salah", "Harry Kane", "Sergio Agüero", "Romelu Lukaku"],
+    "correcta": "Mohamed Salah"
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Qué club ganó la UEFA Champions League en 1997?",
+    "opciones": ["Borussia Dortmund", "Juventus", "Real Madrid", "Ajax"],
+    "correcta": "Borussia Dortmund"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Qué jugador fue elegido Mejor Jugador del Mundial de 2018?",
+    "opciones": ["Luka Modrić", "Kylian Mbappé", "Antoine Griezmann", "Eden Hazard"],
+    "correcta": "Luka Modrić"
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Qué país ganó la Copa Africana de Naciones 2019?",
+    "opciones": ["Argelia", "Senegal", "Egipto", "Nigeria"],
+    "correcta": "Argelia"
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Quién fue el entrenador del Inter campeón de la Champions League 2010?",
+    "opciones": ["José Mourinho", "Roberto Mancini", "Rafael Benítez", "Luciano Spalletti"],
+    "correcta": "José Mourinho"
+  },
+  {
+    "id": 77,
+    "pregunta": "¿Qué club ganó la Copa Sudamericana 2019?",
+    "opciones": ["Independiente del Valle", "Colón", "Athletico Paranaense", "Fluminense"],
+    "correcta": "Independiente del Valle"
+  },
+  {
+    "id": 78,
+    "pregunta": "¿Qué selección fue campeona de la Copa Asiática 2019?",
+    "opciones": ["Catar", "Japón", "Corea del Sur", "Australia"],
+    "correcta": "Catar"
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Quién fue el máximo goleador de la Serie A 2019-20?",
+    "opciones": ["Ciro Immobile", "Cristiano Ronaldo", "Romelu Lukaku", "Zlatan Ibrahimović"],
+    "correcta": "Ciro Immobile"
+  },
+  {
+    "id": 80,
+    "pregunta": "¿Qué club ganó la primera edición del Mundial de Clubes de la FIFA en el año 2000?",
+    "opciones": ["Corinthians", "Vasco da Gama", "Manchester United", "Real Madrid"],
+    "correcta": "Corinthians"
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Qué club ganó la primera Copa Libertadores disputada en 1960?",
+    "opciones": ["Peñarol", "Olimpia", "Independiente", "Bahía"],
+    "correcta": "Peñarol"
+  },
+  {
+    "id": 82,
+    "pregunta": "¿Quién fue el máximo goleador del Mundial de Francia 1998?",
+    "opciones": ["Davor Šuker", "Ronaldo", "Gabriel Batistuta", "Christian Vieri"],
+    "correcta": "Davor Šuker"
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Qué club eliminó al Real Madrid en los octavos de final de la Champions League 2018-19?",
+    "opciones": ["Ajax", "Manchester City", "Juventus", "Liverpool"],
+    "correcta": "Ajax"
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Qué selección ganó la Copa América de 2015?",
+    "opciones": ["Chile", "Argentina", "Uruguay", "Colombia"],
+    "correcta": "Chile"
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Quién marcó el gol de la victoria del Barcelona en la final de la Champions League 2006?",
+    "opciones": ["Juliano Belletti", "Samuel Eto'o", "Ronaldinho", "Ludovic Giuly"],
+    "correcta": "Juliano Belletti"
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Qué entrenador llevó a Portugal a conquistar la Eurocopa 2016?",
+    "opciones": ["Fernando Santos", "Paulo Bento", "Carlos Queiroz", "Luiz Felipe Scolari"],
+    "correcta": "Fernando Santos"
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Qué selección ganó el Mundial Sub-17 de 2019?",
+    "opciones": ["Brasil", "México", "Francia", "España"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 88,
+    "pregunta": "¿Qué club ganó la Champions League en 1995?",
+    "opciones": ["Ajax", "AC Milan", "Juventus", "Benfica"],
+    "correcta": "Ajax"
+  },
+  {
+    "id": 89,
+    "pregunta": "¿Quién fue el primer jugador en ganar cinco Balones de Oro?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Johan Cruyff", "Michel Platini"],
+    "correcta": "Lionel Messi"
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Qué selección perdió la final del Mundial 2010?",
+    "opciones": ["Países Bajos", "Alemania", "Uruguay", "Brasil"],
+    "correcta": "Países Bajos"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué jugador anotó el famoso gol desde mitad de cancha ante Inglaterra en el Mundial 2002?",
+    "opciones": ["Ronaldinho", "Rivaldo", "Ronaldo", "Cafu"],
+    "correcta": "Ronaldinho"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Qué club fue campeón de la Champions League 1998-99?",
+    "opciones": ["Manchester United", "Bayern Múnich", "Real Madrid", "Juventus"],
+    "correcta": "Manchester United"
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Quién ganó el Balón de Oro en 2006?",
+    "opciones": ["Fabio Cannavaro", "Zinedine Zidane", "Ronaldinho", "Thierry Henry"],
+    "correcta": "Fabio Cannavaro"
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Qué selección fue campeona del Mundial de 1978?",
+    "opciones": ["Argentina", "Países Bajos", "Brasil", "Italia"],
+    "correcta": "Argentina"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Qué club ganó la Copa Sudamericana 2015?",
+    "opciones": ["Santa Fe", "River Plate", "Atlético Nacional", "Lanús"],
+    "correcta": "Santa Fe"
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Quién fue el máximo goleador de la Copa América 2015?",
+    "opciones": ["Eduardo Vargas", "Lionel Messi", "Paolo Guerrero", "Alexis Sánchez"],
+    "correcta": "Eduardo Vargas"
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Qué selección ganó la Eurocopa 1988?",
+    "opciones": ["Países Bajos", "Alemania Federal", "Unión Soviética", "Italia"],
+    "correcta": "Países Bajos"
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Qué club fichó a Neymar procedente del Santos?",
+    "opciones": ["Barcelona", "Real Madrid", "PSG", "Chelsea"],
+    "correcta": "Barcelona"
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Quién fue el entrenador de España campeona del Mundial 2010?",
+    "opciones": ["Vicente del Bosque", "Luis Aragonés", "Julen Lopetegui", "Pep Guardiola"],
+    "correcta": "Vicente del Bosque"
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Qué selección ganó la Copa Oro de la CONCACAF en 2021?",
+    "opciones": ["Estados Unidos", "México", "Canadá", "Costa Rica"],
+    "correcta": "Estados Unidos"
+  },
+  {
+    "id": 101,
+    "pregunta": "¿Qué jugador fue el máximo goleador de la Liga española 2012-13?",
+    "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Radamel Falcao", "Diego Costa"],
+    "correcta": "Lionel Messi"
+  },
+  {
+    "id": 102,
+    "pregunta": "¿Qué club ganó la Copa Libertadores 2021?",
+    "opciones": ["Palmeiras", "Flamengo", "River Plate", "Atlético Mineiro"],
+    "correcta": "Palmeiras"
+  },
+  {
+    "id": 103,
+    "pregunta": "¿Quién marcó el gol del empate del Barcelona en la final de Champions 2006 antes del tanto decisivo?",
+    "opciones": ["Samuel Eto'o", "Ronaldinho", "Deco", "Xavi"],
+    "correcta": "Samuel Eto'o"
+  },
+  {
+    "id": 104,
+    "pregunta": "¿Qué país fue sede de la Copa América 2019?",
+    "opciones": ["Brasil", "Chile", "Argentina", "Estados Unidos"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 105,
+    "pregunta": "¿Qué club ganó la Recopa de Europa por última vez antes de desaparecer la competición?",
+    "opciones": ["Lazio", "Chelsea", "Arsenal", "Valencia"],
+    "correcta": "Lazio"
+  },
+  {
+    "id": 106,
+    "pregunta": "¿Qué selección ganó la Copa Asiática 2011?",
+    "opciones": ["Japón", "Australia", "Corea del Sur", "Irán"],
+    "correcta": "Japón"
+  },
+  {
+    "id": 107,
+    "pregunta": "¿Quién fue el máximo goleador de la Champions League 2012-13?",
+    "opciones": ["Cristiano Ronaldo", "Lionel Messi", "Robert Lewandowski", "Thomas Müller"],
+    "correcta": "Cristiano Ronaldo"
+  },
+  {
+    "id": 108,
+    "pregunta": "¿Qué club ganó la UEFA Champions League 2000-01?",
+    "opciones": ["Bayern Múnich", "Valencia", "Real Madrid", "Manchester United"],
+    "correcta": "Bayern Múnich"
+  },
+  {
+    "id": 109,
+    "pregunta": "¿Quién fue el capitán de Francia en el Mundial de 1998?",
+    "opciones": ["Didier Deschamps", "Zinedine Zidane", "Marcel Desailly", "Laurent Blanc"],
+    "correcta": "Didier Deschamps"
+  },
+  {
+    "id": 110,
+    "pregunta": "¿Qué selección ganó la Copa América de 1995?",
+    "opciones": ["Uruguay", "Brasil", "Argentina", "Colombia"],
+    "correcta": "Uruguay"
+  }
+  ],
+  "adivina_jugador": [
+    {
+      "id": 1,
+      "historial": "Malmo FF 🇸🇪 ➔ Ajax 🇳🇱 ➔ Juventus 🇮🇹 ➔ Inter de Milán 🇮🇹 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ LA Galaxy 🇺🇸 ➔ AC Milan 🇮🇹",
+      "nombre": "Zlatan Ibrahimovic"
+    },
+    {
+      "id": 2,
+      "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Napoli 🇮🇹 ➔ Juventus 🇮🇹 ➔ AC Milan 🇮🇹 ➔ Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Inter Miami 🇺🇸",
+      "nombre": "Gonzalo Higuain"
+    },
+    {
+      "id": 3,
+      "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Al-Nassr 🇸🇦",
+      "nombre": "Cristiano Ronaldo"
+    },
+    {
+      "id": 4,
+      "historial": "Monaco 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
+      "nombre": "Thierry Henry"
+    },
+    {
+      "id": 5,
+      "historial": "Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾 ➔ Grêmio 🇧🇷 ➔ Inter Miami 🇺🇸",
+      "nombre": "Luis Suarez"
+    },
+    {
+      "id": 6,
+      "historial": "Boca Juniors 🇦🇷 ➔ Corinthians 🇧🇷 ➔ West Ham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Juventus 🇮🇹 ➔ Boca Juniors 🇦🇷 ➔ Shanghai Shenhua 🇨🇳 ➔ Boca Juniors 🇦🇷",
+      "nombre": "Carlos Tevez"
+    },
+    {
+      "id": 7,
+      "historial": "Parma 🇮🇹 ➔ Juventus 🇮🇹 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Parma 🇮🇹",
+      "nombre": "Gianluigi Buffon"
+    },
+    {
+      "id": 8,
+      "historial": "Real Sociedad 🇪🇸 ➔ Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ➔ Real Madrid 🇪🇸 ➔ Bayern Múnich 🇩🇪",
+      "nombre": "Xabi Alonso"
+    },
+  {
+    "id": 9,
+    "historial": "Newell's Old Boys 🇦🇷 ➔ Barcelona 🇪🇸 ➔ PSG 🇫🇷 ➔ Inter Miami 🇺🇸",
+    "nombre": "Lionel Messi"
+  },
+  {
+    "id": 10,
+    "historial": "Santos 🇧🇷 ➔ Barcelona 🇪🇸 ➔ PSG 🇫🇷 ➔ Al-Hilal 🇸🇦 ➔ Santos 🇧🇷",
+    "nombre": "Neymar"
+  },
+  {
+    "id": 11,
+    "historial": "Instituto 🇦🇷 ➔ Racing Club 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Manchester City 🏴",
+    "nombre": "Sergio Agüero"
+  },
+  {
+    "id": 12,
+    "historial": "Rosario Central 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴 ➔ PSG 🇫🇷 ➔ Juventus 🇮🇹 ➔ Benfica 🇵🇹",
+    "nombre": "Ángel Di María"
+  },
+  {
+    "id": 13,
+    "historial": "Argentinos Juniors 🇦🇷 ➔ Boca Juniors 🇦🇷 ➔ Villarreal 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Roma 🇮🇹",
+    "nombre": "Rodrigo Bentancur"
+  },
+  {
+    "id": 14,
+    "historial": "Danubio 🇺🇾 ➔ Palermo 🇮🇹 ➔ Napoli 🇮🇹 ➔ PSG 🇫🇷 ➔ Manchester United 🏴 ➔ Valencia 🇪🇸 ➔ Boca Juniors 🇦🇷",
+    "nombre": "Edinson Cavani"
+  },
+  {
+    "id": 15,
+    "historial": "Nacional 🇺🇾 ➔ FC Groningen 🇳🇱 ➔ Ajax 🇳🇱 ➔ Liverpool 🏴 ➔ Barcelona 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Nacional 🇺🇾",
+    "nombre": "Luis Suárez"
+  },
+  {
+    "id": 16,
+    "historial": "Fluminense 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fluminense 🇧🇷",
+    "nombre": "Marcelo"
+  },
+  {
+    "id": 17,
+    "historial": "São Paulo 🇧🇷 ➔ AC Milan 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Orlando City 🇺🇸",
+    "nombre": "Kaká"
+  },
+  {
+    "id": 18,
+    "historial": "Cruzeiro 🇧🇷 ➔ PSV 🇳🇱 ➔ Barcelona 🇪🇸 ➔ AC Milan 🇮🇹",
+    "nombre": "Ronaldo Nazário"
+  },
+  {
+    "id": 19,
+    "historial": "Ajax 🇳🇱 ➔ Juventus 🇮🇹 ➔ Bayern Múnich 🇩🇪",
+    "nombre": "Matthijs de Ligt"
+  },
+  {
+    "id": 20,
+    "historial": "Benfica 🇵🇹 ➔ Atlético de Madrid 🇪🇸 ➔ Chelsea 🏴 ➔ Atlético de Madrid 🇪🇸",
+    "nombre": "João Félix"
+  },
+  {
+    "id": 21,
+    "historial": "Peñarol 🇺🇾 ➔ PSG 🇫🇷 ➔ Manchester United 🏴",
+    "nombre": "Manuel Ugarte"
+  },
+  {
+    "id": 22,
+    "historial": "Sporting CP 🇵🇹 ➔ Manchester United 🏴",
+    "nombre": "Bruno Fernandes"
+  },
+  {
+    "id": 23,
+    "historial": "Peñarol 🇺🇾 ➔ Atlético de Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Cagliari 🇮🇹",
+    "nombre": "Diego Forlán"
+  },
+  {
+    "id": 24,
+    "historial": "River Plate 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Sevilla 🇪🇸 ➔ River Plate 🇦🇷",
+    "nombre": "Matías Kranevitter"
+  },
+  {
+    "id": 25,
+    "historial": "River Plate 🇦🇷 ➔ Bayer Leverkusen 🇩🇪 ➔ West Ham 🏴 ➔ River Plate 🇦🇷",
+    "nombre": "Javier Mascherano"
+  },
+  {
+    "id": 26,
+    "historial": "Estudiantes 🇦🇷 ➔ Manchester United 🏴 ➔ Juventus 🇮🇹 ➔ Estudiantes 🇦🇷",
+    "nombre": "Juan Sebastián Verón"
+  },
+  {
+    "id": 27,
+    "historial": "Lanús 🇦🇷 ➔ Atlético de Madrid 🇪🇸 ➔ Sevilla 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Racing Club 🇦🇷",
+    "nombre": "Diego Milito"
+  },
+  {
+    "id": 28,
+    "historial": "Sporting Cristal 🇵🇪 ➔ PSV 🇳🇱 ➔ Chelsea 🏴 ➔ Fiorentina 🇮🇹",
+    "nombre": "Renato Tapia"
+  },
+  {
+    "id": 29,
+    "historial": "Cobreloa 🇨🇱 ➔ Colo-Colo 🇨🇱 ➔ Bayer Leverkusen 🇩🇪 ➔ Juventus 🇮🇹 ➔ Bayern Múnich 🇩🇪 ➔ Inter de Milán 🇮🇹",
+    "nombre": "Arturo Vidal"
+  },
+  {
+    "id": 30,
+    "historial": "Colo-Colo 🇨🇱 ➔ River Plate 🇦🇷 ➔ Barcelona 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Flamengo 🇧🇷",
+    "nombre": "Alexis Sánchez"
+  },
+  {
+    "id": 31,
+    "historial": "Lorient 🇫🇷 ➔ Lyon 🇫🇷 ➔ Real Madrid 🇪🇸 ➔ Al-Ittihad 🇸🇦",
+    "nombre": "Karim Benzema"
+  },
+  {
+    "id": 32,
+    "historial": "Le Havre 🇫🇷 ➔ Monaco 🇫🇷 ➔ PSG 🇫🇷 ➔ Real Madrid 🇪🇸",
+    "nombre": "Kylian Mbappé"
+  },
+  {
+    "id": 33,
+    "historial": "Lech Poznań 🇵🇱 ➔ Borussia Dortmund 🇩🇪 ➔ Bayern Múnich 🇩🇪 ➔ Barcelona 🇪🇸",
+    "nombre": "Robert Lewandowski"
+  },
+  {
+    "id": 34,
+    "historial": "Genk 🇧🇪 ➔ Chelsea 🏴 ➔ Werder Bremen 🇩🇪 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🏴",
+    "nombre": "Kevin De Bruyne"
+  },
+  {
+    "id": 35,
+    "historial": "Molde 🇳🇴 ➔ Red Bull Salzburg 🇦🇹 ➔ Borussia Dortmund 🇩🇪 ➔ Manchester City 🏴",
+    "nombre": "Erling Haaland"
+  },
+  {
+    "id": 36,
+    "historial": "Flamengo 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fluminense 🇧🇷",
+    "nombre": "Robinho"
+  },
+  {
+    "id": 37,
+    "historial": "São Paulo 🇧🇷 ➔ Shakhtar Donetsk 🇺🇦 ➔ AC Milan 🇮🇹 ➔ Orlando City 🇺🇸",
+    "nombre": "Alexandre Pato"
+  },
+  {
+    "id": 38,
+    "historial": "Boca Juniors 🇦🇷 ➔ Valencia 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Villarreal 🇪🇸 ➔ Juventus 🇮🇹",
+    "nombre": "Nicolás Gaitán"
+  },
+  {
+    "id": 39,
+    "historial": "Flamengo 🇧🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Fenerbahçe 🇹🇷",
+    "nombre": "Roberto Carlos"
+  },
+  {
+    "id": 40,
+    "historial": "Atlético Nacional 🇨🇴 ➔ River Plate 🇦🇷 ➔ Villarreal 🇪🇸 ➔ Atlético de Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Juventus 🇮🇹 ➔ Manchester United 🏴",
+    "nombre": "Radamel Falcao"
+  },
+  {
+    "id": 41,
+    "historial": "Independiente 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Lazio 🇮🇹 ➔ Inter de Milán 🇮🇹",
+    "nombre": "Esteban Cambiasso"
+  },
+  {
+    "id": 42,
+    "historial": "River Plate 🇦🇷 ➔ Monaco 🇫🇷 ➔ PSG 🇫🇷 ➔ Manchester United 🏴 ➔ Chelsea 🏴 ➔ Manchester City 🏴",
+    "nombre": "Ángel Di María"
+  },
+  {
+    "id": 43,
+    "historial": "Ajax 🇳🇱 ➔ Juventus 🇮🇹 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹",
+    "nombre": "Clarence Seedorf"
+  },
+  {
+    "id": 44,
+    "historial": "Boca Juniors 🇦🇷 ➔ Barcelona 🇪🇸 ➔ Napoli 🇮🇹 ➔ Boca Juniors 🇦🇷",
+    "nombre": "Diego Maradona"
+  },
+  {
+    "id": 45,
+    "historial": "Metz 🇫🇷 ➔ Juventus 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Juventus 🇮🇹 ➔ Chelsea 🏴",
+    "nombre": "Zinedine Zidane"
+  },
+  {
+    "id": 46,
+    "historial": "River Plate 🇦🇷 ➔ Parma 🇮🇹 ➔ Lazio 🇮🇹 ➔ Inter de Milán 🇮🇹 ➔ Lazio 🇮🇹",
+    "nombre": "Hernán Crespo"
+  },
+  {
+    "id": 47,
+    "historial": "Bayern Múnich 🇩🇪 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Bayern Múnich 🇩🇪",
+    "nombre": "Lothar Matthäus"
+  },
+  {
+    "id": 48,
+    "historial": "Santos 🇧🇷 ➔ Real Madrid 🇪🇸 ➔ AC Milan 🇮🇹 ➔ Orlando City 🇺🇸",
+    "nombre": "Kaká"
+  },
+  {
+    "id": 49,
+    "historial": "Ajax 🇳🇱 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Tottenham 🏴 ➔ Fulham 🏴",
+    "nombre": "Rafael van der Vaart"
+  },
+  {
+    "id": 50,
+    "historial": "Lyon 🇫🇷 ➔ Real Madrid 🇪🇸 ➔ Al-Ittihad 🇸🇦",
+    "nombre": "Karim Benzema"
+  },
+  {
+    "id": 51,
+    "historial": "Bordeaux 🇫🇷 ➔ Juventus 🇮🇹 ➔ Arsenal 🏴 ➔ Barcelona 🇪🇸 ➔ New York Red Bulls 🇺🇸",
+    "nombre": "Thierry Henry"
+  },
+  {
+    "id": 52,
+    "historial": "Rosario Central 🇦🇷 ➔ Valencia 🇪🇸 ➔ Barcelona 🇪🇸 ➔ Villarreal 🇪🇸 ➔ Manchester City 🏴",
+    "nombre": "Pablo Zabaleta"
+  },
+  {
+    "id": 53,
+    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Monaco 🇲🇨 ➔ Espanyol 🇪🇸",
+    "nombre": "Martín Demichelis"
+  },
+  {
+    "id": 54,
+    "historial": "Benfica 🇵🇹 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸 ➔ Monaco 🇲🇨 ➔ Manchester United 🏴",
+    "nombre": "Ricardo Carvalho"
+  },
+  {
+    "id": 55,
+    "historial": "Flamengo 🇧🇷 ➔ Porto 🇵🇹 ➔ Barcelona 🇪🇸 ➔ Inter de Milán 🇮🇹 ➔ Juventus 🇮🇹",
+    "nombre": "Adriano"
+  },
+  {
+    "id": 56,
+    "historial": "River Plate 🇦🇷 ➔ Real Madrid 🇪🇸 ➔ Benfica 🇵🇹 ➔ Monaco 🇲🇨 ➔ Manchester City 🏴",
+    "nombre": "Javier Saviola"
+  },
+  {
+    "id": 57,
+    "historial": "Ajax 🇳🇱 ➔ Arsenal 🏴 ➔ Manchester United 🏴 ➔ Fenerbahçe 🇹🇷",
+    "nombre": "Robin van Persie"
+  },
+  {
+    "id": 58,
+    "historial": "Porto 🇵🇹 ➔ Barcelona 🇪🇸 ➔ Chelsea 🏴 ➔ Fluminense 🇧🇷",
+    "nombre": "Deco"
+  },
+  {
+    "id": 59,
+    "historial": "Anderlecht 🇧🇪 ➔ Chelsea 🏴 ➔ Manchester City 🏴 ➔ Wolfsburgo 🇩🇪 ➔ Manchester City 🏴",
+    "nombre": "Kevin De Bruyne"
+  },
+  {
+    "id": 60,
+    "historial": "Schalke 04 🇩🇪 ➔ Real Madrid 🇪🇸 ➔ Arsenal 🏴 ➔ Fenerbahçe 🇹🇷",
+    "nombre": "Mesut Özil"
+  },
+  {
+    "id": 61,
+    "historial": "Bayern Múnich 🇩🇪 ➔ Manchester United 🏴 ➔ Chicago Fire 🇺🇸",
+    "nombre": "Bastian Schweinsteiger"
+  },
+  {
+    "id": 62,
+    "historial": "Dinamo Zagreb 🇭🇷 ➔ Tottenham 🏴 ➔ Real Madrid 🇪🇸 ➔ Inter Miami 🇺🇸",
+    "nombre": "Luka Modrić"
+  },
+  {
+    "id": 63,
+    "historial": "Dinamo Zagreb 🇭🇷 ➔ Sevilla 🇪🇸 ➔ Real Madrid 🇪🇸 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸",
+    "nombre": "Mateo Kovačić"
+  },
+  {
+    "id": 64,
+    "historial": "River Plate 🇦🇷 ➔ Benfica 🇵🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴",
+    "nombre": "Ezequiel Garay"
+  },
+  {
+    "id": 65,
+    "historial": "Sporting CP 🇵🇹 ➔ Barcelona 🇪🇸 ➔ Real Madrid 🇪🇸 ➔ Inter de Milán 🇮🇹",
+    "nombre": "Luis Figo"
+  },
+  {
+    "id": 66,
+    "historial": "Flamengo 🇧🇷 ➔ Roma 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ AC Milan 🇮🇹 ➔ Real Madrid 🇪🇸",
+    "nombre": "Cafu"
+  },
+  {
+    "id": 67,
+    "historial": "Racing Club 🇦🇷 ➔ Inter de Milán 🇮🇹 ➔ Real Madrid 🇪🇸 ➔ Manchester City 🏴 ➔ Roma 🇮🇹",
+    "nombre": "Walter Samuel"
+  },
+  {
+    "id": 68,
+    "historial": "Porto 🇵🇹 ➔ Chelsea 🏴 ➔ Real Madrid 🇪🇸 ➔ Manchester United 🏴 ➔ Tottenham 🏴",
+    "nombre": "José Mourinho"
+  }
+  ],
+  "palabras_mr_white": [
+    "Lionel Messi",
+    "Cristiano Ronaldo",
+    "Diego Maradona",
+    "Pelé",
+    "Zinedine Zidane",
+    "Ronaldinho",
+    "Ronaldo Nazário",
+    "Neymar",
+    "Kylian Mbappé",
+    "Erling Haaland",
+    "Robert Lewandowski",
+    "Kevin De Bruyne",
+    "Luka Modrić",
+    "Toni Kroos",
+    "Karim Benzema",
+    "Sergio Ramos",
+    "Andrés Iniesta",
+    "Xavi Hernández",
+    "Gerard Piqué",
+    "Iker Casillas",
+    "Manuel Neuer",
+    "Gianluigi Buffon",
+    "Thibaut Courtois",
+    "Virgil van Dijk",
+    "Mohamed Salah",
+    "Sadio Mané",
+    "Harry Kane",
+    "Son Heung-min",
+    "Antoine Griezmann",
+    "Paul Pogba",
+    "N'Golo Kanté",
+    "Eden Hazard",
+    "Gareth Bale",
+    "Luis Suárez",
+    "Edinson Cavani",
+    "Ángel Di María",
+    "Paulo Dybala",
+    "Lautaro Martínez",
+    "Julián Álvarez",
+    "Emiliano Martínez",
+    "Rodrigo De Paul",
+    "Enzo Fernández",
+    "Alexis Mac Allister",
+    "Carlos Tévez",
+    "Sergio Agüero",
+    "Javier Mascherano",
+    "Juan Román Riquelme",
+    "Pablo Aimar",
+    "Hernán Crespo",
+    "Gabriel Batistuta",
+    "Javier Zanetti",
+    "Esteban Cambiasso",
+    "Walter Samuel",
+    "Juan Sebastián Verón",
+    "Rivaldo",
+    "Kaká",
+    "Roberto Carlos",
+    "Cafu",
+    "Dani Alves",
+    "Marcelo",
+    "Thiago Silva",
+    "Casemiro",
+    "Vinícius Jr.",
+    "Rodrygo",
+    "Richarlison",
+    "Gabriel Jesus",
+    "Romário",
+    "Adriano",
+    "Bebeto",
+    "Rivaldo",
+    "Sócrates",
+    "Garrincha",
+    "Franz Beckenbauer",
+    "Gerd Müller",
+    "Miroslav Klose",
+    "Thomas Müller",
+    "Philipp Lahm",
+    "Bastian Schweinsteiger",
+    "Mesut Özil",
+    "Marco Reus",
+    "Mats Hummels",
+    "Joshua Kimmich",
+    "Jamal Musiala",
+    "Arjen Robben",
+    "Franck Ribéry",
+    "Robin van Persie",
+    "Wesley Sneijder",
+    "Clarence Seedorf",
+    "Ruud Gullit",
+    "Marco van Basten",
+    "Johan Cruyff",
+    "Dennis Bergkamp",
+    "Patrick Vieira",
+    "Thierry Henry",
+    "Eric Cantona",
+    "Wayne Rooney",
+    "David Beckham",
+    "Steven Gerrard",
+    "Frank Lampard",
+    "John Terry",
+    "Rio Ferdinand",
+    "Ashley Cole",
+    "Ryan Giggs",
+    "Paul Scholes",
+    "Didier Drogba",
+    "Samuel Eto'o",
+    "Yaya Touré",
+    "George Weah",
+    "Sadio Mané",
+    "Riyad Mahrez",
+    "Achraf Hakimi",
+    "Victor Osimhen",
+    "Khvicha Kvaratskhelia",
+    "Paulo Futre",
+    "Luis Figo",
+    "Deco",
+    "Pepe",
+    "Bruno Fernandes",
+    "Bernardo Silva",
+    "Rúben Dias",
+    "João Félix",
+    "Ricardo Quaresma",
+    "Radamel Falcao",
+    "James Rodríguez",
+    "Juan Cuadrado",
+    "Yerry Mina",
+    "David Villa",
+    "Fernando Torres",
+    "Cesc Fàbregas",
+    "David Silva",
+    "Santi Cazorla",
+    "Fernando Hierro",
+    "Carles Puyol",
+    "Sergio Busquets",
+    "Zlatan Ibrahimović",
+    "Andrea Pirlo",
+    "Gianfranco Zola",
+    "Alessandro Del Piero",
+    "Francesco Totti",
+    "Fabio Cannavaro",
+    "Paolo Maldini",
+    "Andrea Barzagli",
+    "Leonardo Bonucci",
+    "Giorgio Chiellini",
+    "Marco Materazzi",
+    "Daniele De Rossi",
+    "Claudio Marchisio",
+    "Antonio Cassano",
+    "Mario Balotelli",
+    "Ciro Immobile",
+    "Lorenzo Insigne",
+    "Federico Chiesa",
+    "Nicolò Barella",
+    "Jorginho",
+    "Donnarumma",
+    "Achraf Hakimi",
+    "Hakim Ziyech",
+    "Yassine Bounou",
+    "Sofyan Amrabat",
+    "Riyad Mahrez",
+    "Yaya Touré",
+    "Kolo Touré",
+    "Didier Zokora",
+    "Michael Essien",
+    "John Obi Mikel",
+    "Victor Osimhen",
+    "Wilfried Zaha",
+    "Pierre-Emerick Aubameyang",
+    "Emmanuel Adebayor",
+    "Jay-Jay Okocha",
+    "Nwankwo Kanu",
+    "Salomon Kalou",
+    "Frederic Kanouté",
+    "Samuel Kuffour",
+    "Asamoah Gyan",
+    "Thomas Partey",
+    "Kwadwo Asamoah",
+    "Son Heung-min",
+    "Park Ji-sung",
+    "Keisuke Honda",
+    "Shinji Kagawa",
+    "Takefusa Kubo",
+    "Hidetoshi Nakata",
+    "Ali Daei",
+    "Mehdi Taremi",
+    "Tim Cahill",
+    "Harry Kewell",
+    "Mark Viduka",
+    "Carlos Valderrama",
+    "René Higuita",
+    "Faustino Asprilla",
+    "Iván Córdoba",
+    "Juan Pablo Ángel",
+    "Claudio Bravo",
+    "Arturo Vidal",
+    "Gary Medel",
+    "Alexis Sánchez",
+    "Marcelo Salas",
+    "Iván Zamorano",
+    "José Luis Chilavert",
+    "Óscar Cardozo",
+    "Roque Santa Cruz",
+    "Salvador Cabañas",
+    "Paolo Guerrero",
+    "Jefferson Farfán",
+    "Claudio Pizarro",
+    "Teófilo Gutiérrez",
+    "Radamel Falcao",
+    "Jackson Martínez",
+    "Luis Díaz",
+    "James Rodríguez",
+    "Juan Fernando Quintero",
+    "Moisés Caicedo",
+    "Pervis Estupiñán",
+    "Enner Valencia",
+    "Antonio Valencia",
+    "Ángel Mena",
+    "Diego Godín",
+    "Martín Cáceres",
+    "Luis Suárez",
+    "Diego Forlán",
+    "Edinson Cavani",
+    "Álvaro Recoba",
+    "Diego Lugano",
+    "Federico Valverde",
+    "Darwin Núñez",
+    "Manuel Neuer",
+    "Marc-André ter Stegen",
+    "Jan Oblak",
+    "Alisson Becker",
+    "Ederson",
+    "Keylor Navas",
+    "Hugo Sánchez",
+    "Jorge Campos",
+    "Rafael Márquez",
+    "Cuauhtémoc Blanco",
+    "Javier Hernández"
+  ]
+}
