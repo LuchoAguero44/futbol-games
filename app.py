@@ -1,6 +1,9 @@
 import streamlit as st
 import json
 import random
+import requests
+from io import BytesIO
+from PIL import Image, ImageFilter
 
 # Configuración de página responsive y limpia
 st.set_page_config(
@@ -18,16 +21,40 @@ def cargar_datos():
             return json.load(f)
     except FileNotFoundError:
         st.error("Error: No se encontró el archivo data.json.")
-        return {"preguntados": [], "adivina_jugador": [], "palabras_mr_white": []}
+        return {
+            "preguntados": [], 
+            "adivina_jugador": [], 
+            "palabras_mr_white": [],
+            "jugador_borroso": []
+        }
 
 DATA = cargar_datos()
+
+# Función para descargar e intensificar/reducir el desenfoque en caché
+@st.cache_data
+def obtener_imagen_procesada(url_imagen, nivel_desenfoque):
+    try:
+        headers = {'User-Agent': 'FutbolGamesApp/1.0'}
+        response = requests.get(url_imagen, headers=headers, timeout=5)
+        img = Image.open(BytesIO(response.content)).convert("RGB")
+        
+        if nivel_desenfoque > 0:
+            img = img.filter(ImageFilter.GaussianBlur(radius=nivel_desenfoque))
+        return img
+    except Exception:
+        return None
 
 # ---------------------------------------------------------------------------
 # INTERFAZ PRINCIPAL (TABS)
 # ---------------------------------------------------------------------------
 st.title("⚽ Futbol Games")
 
-tab1, tab2, tab3 = st.tabs(["🕵️El impostor", "🧠 Preguntados", "👟 Adivina el Jugador"])
+tab1, tab2, tab3, tab4 = st.tabs([
+    "🕵️ El impostor", 
+    "🧠 Preguntados", 
+    "👟 Adivina el Jugador", 
+    "🖼️ Foto Borrosa"
+])
 
 # ===========================================================================
 # 1. JUEGO: MR. WHITE (IMPOSTOR)
@@ -35,7 +62,6 @@ tab1, tab2, tab3 = st.tabs(["🕵️El impostor", "🧠 Preguntados", "👟 Adiv
 with tab1:
     st.header("El Impostor")
     
-    # Parámetros del juego
     col1, col2 = st.columns(2)
     with col1:
         num_jugadores = st.number_input("Número de Jugadores", min_value=4, max_value=15, value=6, step=1)
@@ -46,11 +72,9 @@ with tab1:
         st.error("¡Debe haber más inocentes que impostores!")
         num_impostores = 1
 
-    # Formulario dinámico para los nombres de los participantes
     st.markdown("##### 👥 Nombres de los participantes:")
     nombres_ingresados = []
     
-    # Organizar inputs en 2 columnas para no saturar la pantalla
     cols_nombres = st.columns(2)
     for i in range(num_jugadores):
         col = cols_nombres[i % 2]
@@ -61,7 +85,6 @@ with tab1:
         ).strip()
         nombres_ingresados.append(nombre if nombre else f"Jugador {i + 1}")
 
-    # Inicializar estado de Mr. White
     if "mw_roles" not in st.session_state:
         st.session_state.mw_roles = None
         st.session_state.mw_palabra = ""
@@ -69,7 +92,7 @@ with tab1:
         st.session_state.mw_nombres = []
 
     def iniciar_mr_white():
-        palabra = random.choice(DATA["palabras_mr_white"]) if DATA.get("palabras_mr_white") else "Fútbol"
+        palabra = random.choice(DATA.get("palabras_mr_white", ["Fútbol"])) if DATA.get("palabras_mr_white") else "Fútbol"
         roles = ["Tripulante"] * (num_jugadores - num_impostores) + ["Mr. White"] * num_impostores
         random.shuffle(roles)
         st.session_state.mw_roles = roles
@@ -80,7 +103,6 @@ with tab1:
     if st.button("🎲 Generar / Reiniciar Juego", key="btn_mw_init"):
         iniciar_mr_white()
 
-    # Mostrar la asignación de roles con nombres personalizados
     if st.session_state.mw_roles and len(st.session_state.mw_roles) == num_jugadores:
         st.subheader("🔑 Revela tu rol en secreto:")
         
@@ -103,13 +125,13 @@ with tab1:
                     if st.button("🔒 Ocultar de nuevo", key=f"ocultar_{idx}"):
                         st.session_state.mw_revelados[idx] = False
                         st.rerun()
+
 # ===========================================================================
 # 2. JUEGO: PREGUNTADOS
 # ===========================================================================
 with tab2:
     st.header("🧠 Trivia Futbolera")
     
-    # Inicializar variables de estado de Preguntados
     if "quiz_score" not in st.session_state:
         st.session_state.quiz_score = 0
         st.session_state.quiz_index = 0
@@ -137,7 +159,6 @@ with tab2:
         st.markdown(f"### Pregunta {st.session_state.quiz_index + 1}:")
         st.info(pregunta_actual["pregunta"])
         
-        # Formulario para capturar la respuesta
         with st.form(key=f"form_quiz_{st.session_state.quiz_index}"):
             opcion_elegida = st.radio("Selecciona tu respuesta:", pregunta_actual["opciones"])
             enviar_respuesta = st.form_submit_button("Validar Respuesta")
@@ -146,14 +167,12 @@ with tab2:
                 st.session_state.quiz_respondido = True
                 st.session_state.quiz_respuesta_correcta = pregunta_actual["correcta"]
                 
-                # Comprobar si la opción seleccionada coincide exactamente con la respuesta correcta
                 if opcion_elegida == pregunta_actual["correcta"]:
                     st.session_state.quiz_score += 10
                     st.session_state.quiz_es_correcto = True
                 else:
                     st.session_state.quiz_es_correcto = False
 
-        # Mostrar retroalimentación clara
         if st.session_state.quiz_respondido:
             if st.session_state.quiz_es_correcto:
                 st.success("¡Excelente! Respuesta correcta (+10 pts).")
@@ -175,7 +194,7 @@ with tab2:
         st.rerun()
 
 # ===========================================================================
-# 3. JUEGO: ADIVINA EL JUGADOR
+# 3. JUEGO: ADIVINA EL JUGADOR (CARRERA)
 # ===========================================================================
 with tab3:
     st.header("👟 ¿Quién es el futbolista?")
@@ -185,7 +204,7 @@ with tab3:
         st.session_state.guess_index = 0
         st.session_state.guess_revelado = False
         st.session_state.guess_feedback = ""
-        if DATA["adivina_jugador"]:
+        if DATA.get("adivina_jugador"):
             st.session_state.guess_lista = random.sample(DATA["adivina_jugador"], len(DATA["adivina_jugador"]))
         else:
             st.session_state.guess_lista = []
@@ -194,7 +213,7 @@ with tab3:
         st.session_state.guess_index = 0
         st.session_state.guess_revelado = False
         st.session_state.guess_feedback = ""
-        if DATA["adivina_jugador"]:
+        if DATA.get("adivina_jugador"):
             st.session_state.guess_lista = random.sample(DATA["adivina_jugador"], len(DATA["adivina_jugador"]))
 
     if st.session_state.guess_lista and st.session_state.guess_index < len(st.session_state.guess_lista):
@@ -203,13 +222,12 @@ with tab3:
         st.markdown("#### Historial de Clubes:")
         st.warning(jugador_actual["historial"])
         
-        # Campo de entrada
         intento = st.text_input("Escribe el nombre del futbolista:", key=f"input_guess_{st.session_state.guess_index}").strip()
         
         col_g1, col_g2 = st.columns(2)
         with col_g1:
             if st.button("🎯 Adivinar", key="btn_adivinar"):
-                if intento.lower() in jugador_actual["nombre"].lower():
+                if intento.lower() in jugador_actual["nombre"].lower() and len(intento) > 2:
                     st.session_state.guess_feedback = "correcto"
                     st.session_state.guess_revelado = True
                 else:
@@ -219,7 +237,6 @@ with tab3:
                 st.session_state.guess_revelado = True
                 st.session_state.guess_feedback = "revelado"
 
-        # Manejo de retroalimentación
         if st.session_state.guess_feedback == "correcto":
             st.success(f"¡Correcto! Es **{jugador_actual['nombre']}**.")
         elif st.session_state.guess_feedback == "incorrecto":
@@ -239,4 +256,90 @@ with tab3:
         
     if st.button("🔄 Reiniciar Adivina el Jugador"):
         reiniciar_guess()
+        st.rerun()
+
+# ===========================================================================
+# 4. JUEGO: FOTO BORROSA
+# ===========================================================================
+with tab4:
+    st.header("🖼️ Foto Borrosa")
+    st.caption("Adivina qué jugador se oculta tras la imagen desenfocada.")
+
+    if "blur_index" not in st.session_state:
+        st.session_state.blur_index = 0
+        st.session_state.blur_desenfoque = 16
+        st.session_state.blur_revelado = False
+        st.session_state.blur_feedback = ""
+        if DATA.get("jugador_borroso"):
+            st.session_state.blur_lista = random.sample(DATA["jugador_borroso"], len(DATA["jugador_borroso"]))
+        else:
+            st.session_state.blur_lista = []
+
+    def reiniciar_blur():
+        st.session_state.blur_index = 0
+        st.session_state.blur_desenfoque = 16
+        st.session_state.blur_revelado = False
+        st.session_state.blur_feedback = ""
+        if DATA.get("jugador_borroso"):
+            st.session_state.blur_lista = random.sample(DATA["jugador_borroso"], len(DATA["jugador_borroso"]))
+
+    if st.session_state.blur_lista and st.session_state.blur_index < len(st.session_state.blur_lista):
+        jugador_blur = st.session_state.blur_lista[st.session_state.blur_index]
+        
+        # Procesar la imagen con desenfoque dinámico
+        img_procesada = obtener_imagen_procesada(jugador_blur["imagen_url"], st.session_state.blur_desenfoque)
+        
+        # Mostrar la imagen centrada usando 3 columnas
+        c_left, c_center, c_right = st.columns([1, 2, 1])
+        with c_center:
+            if img_procesada:
+                st.image(img_procesada, use_container_width=True)
+            else:
+                st.warning("No se pudo cargar la imagen del jugador.")
+
+        # Campo para ingresar la respuesta
+        intento_blur = st.text_input("¿Quién es este futbolista?", key=f"input_blur_{st.session_state.blur_index}").strip()
+
+        col_b1, col_b2, col_b3 = st.columns(3)
+        with col_b1:
+            if st.button("🎯 Comprobar", key="btn_blur_check"):
+                if intento_blur.lower() in jugador_blur["nombre"].lower() and len(intento_blur) > 2:
+                    st.session_state.blur_feedback = "correcto"
+                    st.session_state.blur_desenfoque = 0
+                    st.session_state.blur_revelado = True
+                else:
+                    st.session_state.blur_feedback = "incorrecto"
+        
+        with col_b2:
+            if st.button("🔍 Aclarar foto", key="btn_blur_hint"):
+                st.session_state.blur_desenfoque = max(0, st.session_state.blur_desenfoque - 4)
+                st.rerun()
+
+        with col_b3:
+            if st.button("🔓 Revelar", key="btn_blur_reveal"):
+                st.session_state.blur_desenfoque = 0
+                st.session_state.blur_revelado = True
+                st.session_state.blur_feedback = "revelado"
+
+        # Retroalimentación
+        if st.session_state.blur_feedback == "correcto":
+            st.success(f"¡Correcto! Es **{jugador_blur['nombre']}**.")
+        elif st.session_state.blur_feedback == "incorrecto":
+            st.error("Incorrecto... Pide una pista aclarando la foto o sigue intentándolo.")
+
+        if st.session_state.blur_revelado:
+            if st.session_state.blur_feedback in ["revelado", "incorrecto"]:
+                st.info(f"El futbolista es: **{jugador_blur['nombre']}**")
+                
+            if st.button("Siguiente Jugador ➔", key="btn_next_blur"):
+                st.session_state.blur_index += 1
+                st.session_state.blur_desenfoque = 16
+                st.session_state.blur_revelado = False
+                st.session_state.blur_feedback = ""
+                st.rerun()
+    else:
+        st.success("🎉 ¡Has completado todos los jugadores en Foto Borrosa!")
+
+    if st.button("🔄 Reiniciar Foto Borrosa", key="btn_reset_blur"):
+        reiniciar_blur()
         st.rerun()
