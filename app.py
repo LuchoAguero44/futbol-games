@@ -96,8 +96,9 @@ with tab2:
         st.session_state.quiz_score = 0
         st.session_state.quiz_index = 0
         st.session_state.quiz_respondido = False
-        st.session_state.quiz_feedback = ""
-        if DATA["preguntados"]:
+        st.session_state.quiz_es_correcto = False
+        st.session_state.quiz_respuesta_correcta = ""
+        if DATA.get("preguntados"):
             st.session_state.quiz_lista = random.sample(DATA["preguntados"], len(DATA["preguntados"]))
         else:
             st.session_state.quiz_lista = []
@@ -106,8 +107,9 @@ with tab2:
         st.session_state.quiz_score = 0
         st.session_state.quiz_index = 0
         st.session_state.quiz_respondido = False
-        st.session_state.quiz_feedback = ""
-        if DATA["preguntados"]:
+        st.session_state.quiz_es_correcto = False
+        st.session_state.quiz_respuesta_correcta = ""
+        if DATA.get("preguntados"):
             st.session_state.quiz_lista = random.sample(DATA["preguntados"], len(DATA["preguntados"]))
 
     if st.session_state.quiz_lista and st.session_state.quiz_index < len(st.session_state.quiz_lista):
@@ -117,37 +119,40 @@ with tab2:
         st.markdown(f"### Pregunta {st.session_state.quiz_index + 1}:")
         st.info(pregunta_actual["pregunta"])
         
-        # Formulario para evitar recargas inmediatas al clickear opciones
+        # Formulario para capturar la respuesta
         with st.form(key=f"form_quiz_{st.session_state.quiz_index}"):
             opcion_elegida = st.radio("Selecciona tu respuesta:", pregunta_actual["opciones"])
             enviar_respuesta = st.form_submit_button("Validar Respuesta")
             
             if enviar_respuesta and not st.session_state.quiz_respondido:
                 st.session_state.quiz_respondido = True
+                st.session_state.quiz_respuesta_correcta = pregunta_actual["correcta"]
+                
+                # Comprobar si la opción seleccionada coincide exactamente con la respuesta correcta
                 if opcion_elegida == pregunta_actual["correcta"]:
                     st.session_state.quiz_score += 10
-                    st.session_state.quiz_feedback = "correct"
+                    st.session_state.quiz_es_correcto = True
                 else:
-                    st.session_state.quiz_feedback = f"incorrect_{pregunta_actual['correcta']}"
-        
-        # Retroalimentación visual fuera del formulario
+                    st.session_state.quiz_es_correcto = False
+
+        # Mostrar retroalimentación clara
         if st.session_state.quiz_respondido:
-            if "correct" in st.session_state.quiz_feedback:
+            if st.session_state.quiz_es_correcto:
                 st.success("¡Excelente! Respuesta correcta (+10 pts).")
             else:
-                resp_correcta = st.session_state.quiz_feedback.split("_")[1]
-                st.error(f"Incorrecto. La respuesta correcta era: **{resp_correcta}**")
+                st.error(f"❌ Incorrecto. La respuesta correcta era: **{st.session_state.quiz_respuesta_correcta}**")
                 
-            if st.button("Siguiente Pregunta ➔"):
+            if st.button("Siguiente Pregunta ➔", key=f"btn_next_quiz_{st.session_state.quiz_index}"):
                 st.session_state.quiz_index += 1
                 st.session_state.quiz_respondido = False
-                st.session_state.quiz_feedback = ""
+                st.session_state.quiz_es_correcto = False
+                st.session_state.quiz_respuesta_correcta = ""
                 st.rerun()
     else:
         st.success("🎉 ¡Has completado todas las preguntas disponibles!")
         st.metric(label="Puntuación Final", value=f"{st.session_state.quiz_score} pts")
         
-    if st.button("🔄 Reiniciar Trivia"):
+    if st.button("🔄 Reiniciar Trivia", key="btn_reset_quiz"):
         reiniciar_quiz()
         st.rerun()
 
